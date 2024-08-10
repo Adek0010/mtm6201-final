@@ -1,8 +1,26 @@
-html {
-  background-color: #233076;
+:root {
+  --bs-body-bg: #233076;
+  --bs-primary-rgb: #233076;
+}
+
+nav {
+  list-style-type: none;
 }
 
 .logo img {
   width: 61px;
   height: 48px;
+}
+
+.banner {
+  background-image: url(../images/banner-image.jpg);
+  height: 449px;
+  width: 430px;
+  background-position: inherit;
+}
+
+.banner h1 {
+  width: 365px;
+  height: 108px;
+  font-size: 3rem;
 }
